@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cerberus Consulting LLC</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="cerberus-logo.jpg" alt="Cerberus Logo" class="logo" />
+    <h1>Cerberus Consulting LLC</h1>
+    <p>Athenahealth EMR Onboarding & Optimization | IT Services and Consulting</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Cerberus Consulting LLC, we specialize in seamless onboarding and optimization for Athenahealth EMR systems. Our team also delivers tailored IT solutions to elevate healthcare operations.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Athenahealth EMR Onboarding & Training</li>
+      <li>Workflow Optimization & Reporting</li>
+      <li>IT Infrastructure & Security Solutions</li>
+      <li>Practice Management & Support</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>Client Testimonials</h2>
+    <blockquote>
+      <p>"Cerberus transformed the way we use Athena. Their support was top-notch and fast."</p>
+      <footer>- Clinic Manager, Family Health Group</footer>
+    </blockquote>
+    <blockquote>
+      <p>"Their IT knowledge combined with EMR expertise saved us time and money. Highly recommend."</p>
+      <footer>- Director, Urban Care</footer>
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />  
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section id="signup">
+    <h2>Stay in the Loop</h2>
+    <form action="#" method="post">
+      <label for="signup-email">Email:</label>
+      <input type="email" id="signup-email" name="signup-email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cerberus Consulting LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
